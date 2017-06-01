@@ -4,7 +4,7 @@
             [clojure.string :refer [join replace]]
             [lancet.core :as lancet]
             [leiningen.core.classpath :refer [get-classpath]]
-            [leiningen.javac :refer [javac]]
+            [leiningen.junitc :refer [javac]]
             leiningen.core.eval)
   (:import [java.io File]
            [org.apache.tools.ant.types FileSet Path]
